@@ -1,0 +1,255 @@
+{% load static %}
+<script>
+    if ( window.history.replaceState ) {
+        window.history.replaceState( null, null, window.location.href );
+    }
+</script>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Resume - Jacob Welling</title>
+        <link rel="icon" type="image/x-icon" href="{% static 'images/favicon.ico' %}" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Extra+Condensed:500,700" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Muli:400,400i,800,800i" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="{% static 'css/styles.css' %}" rel="stylesheet" />
+    </head>
+    <body id="page-top">
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top" id="sideNav">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top">
+                <span class="d-block d-lg-none">Jacob Welling</span>
+                <span class="d-none d-lg-block"><img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="{% static 'images/myprofile3.jpg' %}" alt="" /></span>
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#experience">Experience</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#education">Education</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#skills">Skills</a></li>
+                    {% comment %} <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#interests">Interests</a></li> {% endcomment %}
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">My Work</a></li>
+                    <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+        <!-- Page Content-->
+        <div class="container-fluid p-0">
+            <!-- About-->
+            <section class="resume-section" id="about">
+                <div class="resume-section-content">
+                    <h1 class="mb-0">
+                        Jacob
+                        <span class="text-primary">Welling</span>
+                    </h1>
+                    <div class="subheading mb-5">
+                        (801) 837-2607 · Provo, Utah · <a href="https://www.linkedin.com/in/jacob-welling">www.linkedin.com/in/jacob-welling</a> 
+                        
+                    </div>
+                    <p class="lead mb-5">Currently a student at Brigham Young University earning a degree in Information Systems. I enjoy skiing, being outdoors, and learning new things. I'm also excited about future industry opportunities in software development, product management, and consulting. </p>
+                    <div class="social-icons">
+                        <a class="social-icon" href="https://www.linkedin.com/in/jacob-welling"><i class="fab fa-linkedin-in"></i></a>
+                        <a class="social-icon" href="https://github.com/JAW1"><i class="fab fa-github"></i></a>
+                        {% comment %} <a class="social-icon" href="#"><i class="fab fa-twitter"></i></a>
+                        <a class="social-icon" href="#"><i class="fab fa-facebook-f"></i></a> {% endcomment %}
+                        
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Experience-->
+            <section class="resume-section" id="experience">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Experience</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Student Venture Academy Consulting Intern</h3>
+                            <div class="subheading mb-3">BYU Ballard Center</div>
+                            <p>▪ Assisting in the development and preparation for the launch of a minimum viable project for assigned venture<br>
+                                ▪ Mentoring students on the early iterations and business model of their social impact project<br>
+                                ▪ Preparing students to present their venture to a panel of judges to receive funding for their ventures</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">August 2020 - December 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Assistant Database Manager</h3>
+                            <div class="subheading mb-3">Brigham Young University</div>
+                            <p>▪ Managed database of technology owned by OIT, saving time by eliminating inconsistencies within database<br>
+                                ▪ Inspected 40+ assets each day, recorded keys and model numbers for the assets<br>
+                                ▪ Brought to attention 15+ non-recorded assets each day and helped add them to the NetSuite database<br>
+                                ▪ Database management, technology management, and technology auditing</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">January 2020 - August 2020</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Customer Service Representative</h3>
+                            <div class="subheading mb-3">PhoneSoap</div>
+                            <p>▪ Helped create a platform to centralize company knowledge after presenting the need for one to management<br>
+                                ▪ Managed customer returns and unit repair processes, fixed and prepared units to be sold as refurbished<br>
+                                ▪ Daily tasks included troubleshooting, customer support, packaging, and responding to email inquiries</p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">March 2019 - November 2019</span></div>
+                    </div>
+                    
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Education-->
+            <section class="resume-section" id="education">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Education</h2>
+                    <div class="d-flex flex-column flex-md-row justify-content-between mb-5">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Brigham Young University</h3>
+                            <div class="subheading mb-3">Information Systems</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">October 2018 - Present</span></div>
+                    </div>
+                    <div class="d-flex flex-column flex-md-row justify-content-between">
+                        <div class="flex-grow-1">
+                            <h3 class="mb-0">Utah Valley University</h3>
+                            <div class="subheading mb-3">General Coursework</div>
+                            <p></p>
+                        </div>
+                        <div class="flex-shrink-0"><span class="text-primary">Summer 2016</span></div>
+                    </div>
+                </div>
+            </section>
+            <hr class="m-0" />
+            <!-- Skills-->
+            <section class="resume-section" id="skills">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Skills</h2>
+                    <div class="subheading mb-3">Programming Languages & Tools</div>
+                    <ul class="list-inline dev-icons">
+                        <li class="list-inline-item"><i class="fab fa-html5"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-css3-alt"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-js-square"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-node-js"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-python"></i></li>
+                        <li class="list-inline-item"><i class="fas fa-database"></i></li>
+                        <li class="list-inline-item"><i class="fab fa-bootstrap"></i></li>
+
+
+                        
+                    </ul>
+                    <div class="subheading mb-3">Relevant courses</div>
+                    <ul class="fa-ul mb-0">
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Systems Analysis and Design
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Business Programming - Python/Django Web Applications
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Database Systems
+                        </li>
+                        <li>
+                            <span class="fa-li"><i class="fas fa-check"></i></span>
+                            Machine Learning
+                        </li>
+                    </ul>
+                </div>
+            </section>
+            {% comment %} <hr class="m-0" />
+            <!-- Interests-->
+            <section class="resume-section" id="interests">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Interests</h2>
+                    <p>Apart from being a web developer, I enjoy most of my time being outdoors. In the winter, I am an avid skier and novice ice climber. During the warmer months here in Colorado, I enjoy mountain biking, free climbing, and kayaking.</p>
+                    <p class="mb-0">When forced indoors, I follow a number of sci-fi and fantasy genre movies and television shows, I am an aspiring chef, and I spend a large amount of my free time exploring the latest technology advancements in the front-end web development world.</p>
+                </div>
+            </section> {% endcomment %}
+
+
+            {% comment %} My Work {% endcomment %}
+
+            <section class="resume-section" id="portfolio">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">My Work</h2><div class="card-deck" style='width:700px'>
+                        {% comment %} <div class="card bg-light">
+                            <div class="card-body text-center">
+                            <p class="card-text">Some text inside the fourth card</p>
+                            </div>
+                        </div>
+                        <div class="card bg-light">
+                            <div class="card-body text-center">
+                            <p class="card-text">Some text inside the fifth card</p>
+                            </div> {% endcomment %}
+                        <div class="card" style="width:300px">
+                        <img class="card-img-top" src="{% static 'images/Screenshot-bcr.png' %}" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                        <h4 class="card-title">Black Cyber Recruiter - School Project</h4>
+                        <a href="http://bcr-recruiter.herokuapp.com" class="btn btn-info stretched-link">See Profile</a>
+                        </div>
+                        
+                        </div>
+                        <div class="card" style="width:300px height">
+                        <img class="card-img-top" src="{% static 'images/noun_dot dot dot_2888681.png' %}" alt="Card image" style="width:100%">
+                        <div class="card-body">
+                        <h4 class="card-title">More Work Coming Soon!</h4>
+                        {% comment %} <a href="" class="btn btn-info stretched-link">See Profile</a> {% endcomment %}
+                        </div>
+                        </div>
+                </div>
+            </section>
+
+            <hr class="m-0" />
+            {% if cName %}:
+            <center>
+                <h2>Thanks {{ cName }}!</h2>
+                <p>I have received your email and will respond shortly!</p>
+            </center>
+            <br><br>
+            {% endif %}
+            <!-- Contact-->
+            <section class="resume-section" id="contact">
+                <div class="resume-section-content">
+                    <h2 class="mb-5">Contact Me</h2>
+                    <form method="post" action="{% url 'contactMe' %}" > 
+                    {% csrf_token %}
+                        <div class="form-group">
+                            <label for="cName">Your Name:</label>
+                            <input type="text" class="form-control" id="cName" name="cName">
+                        </div>
+                        <div class="form-group">
+                            <label for="cEmail">Your Email:</label>
+                            <input type="email" class="form-control" id="cEmail" name="cEmail">
+                        </div>
+                        <div>
+                        <label for="cMessage">Your Message:</label>
+                        <textarea rows="8" class="form-control" id="cMessage" name="cMessage" placeholder="Enter text here..."></textarea>
+                        </div>
+                        <br>
+                        <div>
+                        <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                        </form>
+                    
+                </div>
+            </section>
+        </div>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Third party plugin JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="{% static 'js/scripts.js' %}"></script>
+    </body>
+</html>
